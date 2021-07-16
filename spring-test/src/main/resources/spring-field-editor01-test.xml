@@ -3,7 +3,7 @@
 	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="student" class="com.xl.code.study.no_5.fieldEditor.Student">
+	<bean id="student" class="org.springframework.xl.code.study.no_5.fieldEditor.Student">
 		<property name="name" value="zhangsan"/>
 		<property name="birthday" value="2000-01-01"/>
 	</bean>
@@ -14,7 +14,7 @@
 	<bean class = "org.springframework.beans.factory.config.CustomEditorConfigurer">
 		<property name="propertyEditorRegistrars">
 			<list>
-				<bean class="com.xl.code.study.no_5.fieldEditor.DatePropertyEditorRegistrar"/>
+				<bean class="org.springframework.xl.code.study.no_5.fieldEditor.DatePropertyEditorRegistrar"/>
 			</list>
 		</property>
 	</bean>

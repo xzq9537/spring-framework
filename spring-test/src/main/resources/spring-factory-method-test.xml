@@ -5,7 +5,7 @@
 
 	<!--静态工厂方法-->
 
-	<bean id="person" class="com.xl.code.study.no_2.factory_method.PersonFactory"
+	<bean id="person" class="org.springframework.xl.code.study.no_2.factory_method.PersonFactory"
 		  factory-method="staticBuildPerson"></bean>
 
 

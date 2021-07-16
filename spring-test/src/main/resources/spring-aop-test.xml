@@ -9,7 +9,7 @@
 
 	<aop:aspectj-autoproxy />
 
-	<bean class="com.xl.code.study.no_7.demo01.AspectConfig"/>
-	<bean name="test" class="com.xl.code.study.no_7.demo01.TestImpl"/>
+	<bean class="org.springframework.xl.code.study.no_7.demo01.AspectConfig"/>
+	<bean name="test" class="org.springframework.xl.code.study.no_7.demo01.TestImpl"/>
 
 </beans>

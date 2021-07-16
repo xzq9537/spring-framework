@@ -6,7 +6,7 @@
 
 
 
-	<bean class="com.xl.code.study.no_3.Student" id="student" init-method="start">
+	<bean class="org.springframework.xl.code.study.no_3.Student" id="student" init-method="start">
 		<constructor-arg index="0" value="1"></constructor-arg>
 		<constructor-arg index="1" value="小刘"></constructor-arg>
 	</bean>
@@ -18,7 +18,7 @@
 <!--	</bean>-->
 
 	<!--开启自动依赖注入 @Autowired...注解-->
-	<context:component-scan base-package="com.xl.code.study.*"/>
+	<context:component-scan base-package="org.springframework.xl.code.study.*"/>
 
 
 	<!-- 注册InstantiationAwareBeanPostProcessor对象 -->

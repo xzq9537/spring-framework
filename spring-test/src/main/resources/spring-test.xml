@@ -4,5 +4,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean id="userService" class="com.xl.code.study.no_1.UserServiceImpl"/>
+	<bean id="userService" class="org.springframework.xl.code.study.no_1.UserServiceImpl"/>
 </beans>
